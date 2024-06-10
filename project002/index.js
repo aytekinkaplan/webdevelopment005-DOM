@@ -11,3 +11,7 @@ var secondListItem = document.querySelectorAll(".list")[1];
 console.log(secondListItem.textContent); // Outputs: Third
 
 document.querySelectorAll(".list")[0].textContent = "Say my name";
+
+document.firstElementChild.lastElementChild.querySelector(
+  "ul"
+).lastElementChild.textContent = "Say my name";
