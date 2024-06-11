@@ -1,17 +1,19 @@
-// Select all elements with the class 'list' and get the third one (index 2)
-var thirdListItem = document.querySelectorAll(".list")[2];
-console.log(thirdListItem.textContent); // Outputs: Third
+console.log(document.querySelector("li").classList);
 
-// Select all elements with the class 'list' and get the first one (index 0)
-var firstListItem = document.querySelectorAll(".list")[0];
-console.log(firstListItem.textContent); // Outputs: Second
+console.log(document.querySelector("li").classList.toString());
 
-// Select all elements with the class 'list' and get the second one (index 1)
-var secondListItem = document.querySelectorAll(".list")[1];
-console.log(secondListItem.textContent); // Outputs: Third
+document.querySelector("h1").textContent = "Goodbye World!";
 
-document.querySelectorAll(".list")[0].textContent = "Say my name";
+document.querySelector("h1").style.color = "green";
 
-document.firstElementChild.lastElementChild.querySelector(
-  "ul"
-).lastElementChild.textContent = "Say my name";
+document.querySelector("h1").style.fontSize = "5rem";
+
+const colors = ["red", "orange", "yellow", "green", "blue", "purple"];
+
+document.querySelector("button").addEventListener("click", () => {
+  const h1Elements = document.querySelectorAll("h1");
+
+  h1Elements.forEach((h1, index) => {
+    h1.style.color = colors[index % colors.length];
+  });
+});
