@@ -7,25 +7,24 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
@@ -34,8 +33,43 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+}
 
+.btn {
+  margin: 10px;
+  background-color: #4ecca3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Indie Flower", cursive;
+
+  border-radius: 12px;
+
+  transition-duration: 0.4s;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  transition-duration: 0.4s;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  border-radius: 12px;
+
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
