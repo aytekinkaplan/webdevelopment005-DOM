@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

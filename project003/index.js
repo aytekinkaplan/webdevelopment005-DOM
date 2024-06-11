@@ -17,3 +17,9 @@ document.querySelector("button").addEventListener("click", () => {
     h1.style.color = colors[index % colors.length];
   });
 });
+
+document.querySelector("button").addEventListener("click", () => {
+  document.querySelector("h1").classList.toggle("big").fontSize = "5rem";
+  document.querySelector("h1").classList.toggle("small").fontSize = "2rem";
+  document.querySelector("h1").classList.toggle("medium").fontSize = "3rem";
+});

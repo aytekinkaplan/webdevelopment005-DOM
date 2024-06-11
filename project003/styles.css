@@ -1,3 +1,16 @@
 h1 {
   color: red;
 }
+.btn {
+  background-color: black;
+  color: white;
+}
+.big {
+  font-size: 40px;
+}
+.small {
+  font-size: 20px;
+}
+.medium {
+  font-size: 30px;
+}
